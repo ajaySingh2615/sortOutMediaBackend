@@ -53,7 +53,7 @@ const User = mongoose.model("User", userSchema);
 // Middleware
 app.use(
   cors({
-    origin: "http://127.0.0.1:5500", // Replace with your frontend's domain
+    origin: "https://sortoutmediafrontend.onrender.com", // Replace with your frontend's domain
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })
